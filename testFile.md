@@ -3,7 +3,7 @@
 **test**
 *test*
 [link](https://l9flores.github.io/cse15l-lab-reports/)
-![image]
+![image](http://url/a.png)
 > test
 > test
 * test
