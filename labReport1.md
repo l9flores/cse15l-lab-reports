@@ -1,3 +1,25 @@
+![image](https://github.com/l9flores/cse15l-lab-reports/blob/main/cdNoArgs.png) <br>
+The working directory in the image is `/home/lecture1` and it got this output due to the `cd` command not having any arguments meaning that it goes straight to the home directory
 
-`cd`
-![image](https://github.com/l9flores/cse15l-lab-reports/blob/main/lsDirectory.png)
+![image](https://github.com/l9flores/cse15l-lab-reports/blob/main/cdFile.png)<br>
+The working directory in the image is `` and it got this output due to
+
+![image](https://github.com/l9flores/cse15l-lab-reports/blob/main/cdDirectory.png)<br>
+The working directory in the image is `` and it got this output due to
+
+![image](https://github.com/l9flores/cse15l-lab-reports/blob/main/lsNoArgs.png)<br>
+The working directory in the image is `` and it got this output due to
+
+![image](https://github.com/l9flores/cse15l-lab-reports/blob/main/lsFile.png)<br>
+The working directory in the image is `` and it got this output due to
+
+![image](https://github.com/l9flores/cse15l-lab-reports/blob/main/lsDirectory.png)<br>
+The working directory in the image is `/home` and got this output due to the `ls` command being used onto the lecture1 folder which lists the contents of the lecture1 folder
+
+![image](https://github.com/l9flores/cse15l-lab-reports/blob/main/catNoArgs.png)<br>
+The working directory in the image is `` and it got this output due to
+
+![image](https://github.com/l9flores/cse15l-lab-reports/blob/main/catFile.png)<br>
+The working directory in the image is `` and it got this output due to
+
+![image](https://github.com/l9flores/cse15l-lab-reports/blob/main/catDirectory.png)
