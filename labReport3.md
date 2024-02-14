@@ -1,9 +1,43 @@
 # Part 1
-The bug I chose was the bug within the `` file that
-```code```
-``` ```
-The symptom is <br>
-The bug is <br>
+The bug I chose was the bug within the `ArrayExamples` file in the `reversed` method
+```
+@Test
+public void testReversed() {
+    int[] arr = {1, 2, 3};
+    assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(arr));
+  }
+```
+This test fails since once you call `reversed` on `arr` instead of making a new reversed array, it empties out the array.
+
+``` 
+@Test
+public void testReversed() {
+    int[] arr = {};
+    assertArrayEquals(new int[]{}, ArrayExamples.reversed(arr));
+  }
+```
+This test passes since the array starts out as empty, so when the `reversed` method is called nothing changes and it compares an empty array to another empty array. <br>
+
+The symptoms <br>
+![image](arrTestFail.png) <br>
+![image](arrTestSuccess.png) <br>
+
+Before the bug is fixed
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+After the bug is fixed
+```
+
+```
+<br>
 <br>
 
 # Part 2
