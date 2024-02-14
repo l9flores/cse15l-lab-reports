@@ -50,7 +50,7 @@ static int[] reversed(int[] arr) {
 
 # Part 2
 ## grep -c
-The `grep` command using the -c option will instead display the count of how many instances of the String it found
+The `grep` command using the -c option will instead display the count of how many instances of the String it found.
 ```
 grep -c "Study" 1468-6708-3-1.txt
 4
@@ -66,7 +66,7 @@ In this example the `grep` command is again used within the working directory `/
 
 
 ## grep -i
-The `grep` command can be used with -i which makes the String input not case sensitive, meaning it ignores whether or not a letter is captial
+The `grep` command can be used with -i which makes the String input not case sensitive, meaning it ignores whether or not a letter is captial.
 ```
 grep -i "example" 1468-6708-3-4.txt
         Examples
@@ -108,7 +108,7 @@ grep -i "use" 1468-6708-3-7.txt
         hypertension are not known. These drugs appear to cause
         national recommendations to use low-dose diuretics or
 ```
-This example shows every line including every instance of the String in the `1468-6708-3-7.txt` file. It includes both "Use" and "use" in its output since its ignoring the case. This has <br><br>
+This example shows every line including every instance of the String in the `1468-6708-3-7.txt` file. It includes both "Use" and "use" in its output since its ignoring the case. This has use in trying to find every instance of a String while trying to ignore the capital letters in it. <br><br>
 
 
 
