@@ -135,12 +135,12 @@ grep -n "Gad" 1471-213X-1-1.txt
 286:        Gad1 suggests a wider role for GAD
 297:        Gad1 probe was derived from an EST
 ```
-This example shows the `grep` command used on the file `1471-213X-1-1.txt` which outputs every line including "Gad" and the line number within the file. This is important since.<br><br>
+This example shows the `grep` command used on the file `1471-213X-1-1.txt` which outputs every line including "Gad" and the line number within the file. This is important since if we have a big list like this we know where the exact line number of where each line that includes a String is.<br><br>
 
 
 
 ## grep -w
-`grep` also has the -w option which searches for the String as a single word within the file
+`grep` also has the -w option which searches for the String as a single word within the file.
 ```
 grep -w "believe" 1471-213X-1-2.txt
         We currently believe that migrating cells extend and
