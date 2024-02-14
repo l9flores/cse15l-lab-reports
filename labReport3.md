@@ -1,5 +1,6 @@
 # Part 1
-The bug I chose was the bug within the `ArrayExamples` file in the `reversed` method
+The bug I chose was the bug within the `ArrayExamples` file in the `reversed` method <br> <br>
+Failure-inducing input
 ```
 @Test
 public void testReversed() {
@@ -7,8 +8,9 @@ public void testReversed() {
     assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(arr));
   }
 ```
-This test fails since once you call `reversed` on `arr` instead of making a new reversed array, it empties out the array.
+This test fails since once you call `reversed` on `arr` instead of making a new reversed array, it empties out the array. <br> <br>
 
+Non-failure-inducing input
 ``` 
 @Test
 public void testReversed() {
@@ -35,7 +37,13 @@ static int[] reversed(int[] arr) {
 
 After the bug is fixed
 ```
-
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
 ```
 <br>
 <br>
