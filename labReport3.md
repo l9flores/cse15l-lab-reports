@@ -21,7 +21,9 @@ public void testReversed() {
 This test passes since the array starts out as empty, so when the `reversed` method is called nothing changes and it compares an empty array to another empty array. <br>
 
 The symptoms <br>
+Test Failure
 ![image](arrTestFail.png) <br>
+Test Success
 ![image](arrTestSuccess.png) <br>
 
 Before the bug is fixed
