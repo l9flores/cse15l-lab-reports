@@ -26,4 +26,5 @@ When I ran `bash test.sh` to run the tests, it came up with one failure in the t
 
 
 # Part 2
+
 This second half of the semester, something I learned was about jdb. It seems like a good alternative from just writing print statements in order to check whether my code works. I feel like in some cases jdb would work better and more efficiently, especially for things like loops where it runs the same code multiple times since with breakpoints you can isolate each specific time the loop runs.
